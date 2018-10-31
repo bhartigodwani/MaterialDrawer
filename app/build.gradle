@@ -36,6 +36,7 @@ android {
         }
         release {
             try {
+            
                 signingConfig signingConfigs.release
             } catch (ex) {
             }
